@@ -1,0 +1,94 @@
+
+
+Skip to content
+Using BITS Pilani University Mail with screen readers
+Meet
+New meeting
+My meetings
+Hangouts
+
+1 of 16
+Document from Bhoomi Sawant
+Inbox
+
+BHOOMI SAWANT
+Attachments
+11:36 PM (0 minutes ago)
+to me
+
+build.xml 
+Attachments area
+
+<?xml version="1.0"?> 
+<project name="dotsnboxes" default="compile" basedir="."> 
+    <property name="src" value="."/> 
+    <property name="build" value="build"/>
+    <property name="classdir" value="${build}/classes"/>
+    <property name="jardir" value="${build}/jars"/>
+    <property name="docdir" value="${build}/docs"/>
+    <property name="csrcdir" value="${src}/c"/>
+
+    <target name="init">  
+        <mkdir dir="${build}"/>
+    </target>
+
+    <target name="jcompile" depends="init"> 
+        <mkdir dir="${classdir}"/>
+        <javac includeantruntime="true" srcdir="${src}" destdir="${classdir}"
+        debug="true" debuglevel="lines,vars,source"/> 
+    </target>
+
+    <target name="ccompile" depends="jcompile">
+        <mkdir dir="${csrcdir}"/>
+        <javac srcdir="${src}/dots/agent/q" classpath="${classdir}" nativeHeaderDir="${csrcdir}" includes="NativeStateMatrix.java">
+        </javac>
+
+        <exec executable="make" failonerror="yes">
+            <arg value="-C"/>
+            <arg value="${csrcdir}"/>
+        </exec>
+    </target>
+
+    <target name="compile" depends="jcompile,ccompile"/>
+
+    <target name="jar" depends="compile">
+        <mkdir dir="${jardir}"/>
+        <jar destfile="${jardir}/dots.jar" basedir="${classdir}">
+            <manifest>
+                <attribute name="Main-Class" value="dots.Bootstrapper"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="run" depends="jar">
+        <java jar="${jardir}/dots.jar" fork="true">
+            <sysproperty key="java.library.path" path="${csrcdir}"/>
+            <arg line="${args}"/>
+        </java>
+    </target>
+
+    <target name="clean">
+        <delete dir="${build}"/>
+        <delete file="${csrcdir}/jni_statematrix.h"/>
+        <exec executable="make" failonerror="yes">
+            <arg value="clean"/>
+            <arg value="-C"/>
+            <arg value="${csrcdir}"/>
+        </exec>
+    </target>
+
+    <target name="javadoc">
+        <javadoc
+            access="private"
+            destdir="${docdir}"
+            author="true"
+            use="true"
+            >
+            <fileset dir="${src}" defaultexcludes="yes">
+                <include name="**/*.java"/>
+            </fileset>
+        </javadoc>
+    </target>
+</project>
+build.xml
+Displaying build.xml.

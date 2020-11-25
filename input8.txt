@@ -1,0 +1,9 @@
+--num 100000 --agent QLearningAgent:true:q1.dat:0.2:0.2 --agent QLearningAgent:false:q2.dat | Share: 0.573020 | QLearning score: 146040
+--num 100000 --agent QLearningAgent:true:q1.dat:0.2:0.4 --agent QLearningAgent:false:q2.dat | Share: 0.544310 | QLearning score: 88620
+--num 100000 --agent QLearningAgent:true:q1.dat:0.2:0.6 --agent QLearningAgent:false:q2.dat | Share: 0.533440 | QLearning score: 66880
+--num 100000 --agent QLearningAgent:true:q1.dat:0.2:0.8 --agent QLearningAgent:false:q2.dat | Share: 0.565840 | QLearning score: 131680
+
+--num 200000 --agent QLearningAgent:true:q1.dat:0.2:0.2 --agent QLearningAgent:false:q2.dat | Share: 0.574040 | QLearning score: 296160
+--num 200000 --agent QLearningAgent:true:q1.dat:0.4:0.2 --agent QLearningAgent:false:q2.dat | Share: 0.997360 | QLearning score: 1989440
+--num 200000 --agent QLearningAgent:true:q1.dat:0.6:0.2 --agent QLearningAgent:false:q2.dat | Share: 0.999905 | QLearning score: 1999620
+--num 200000 --agent QLearningAgent:true:q1.dat:0.8:0.2 --agent QLearningAgent:false:q2.dat | Share: 0.999910 | QLearning score: 1999640

@@ -21,13 +21,13 @@
 
 package dots;
 
-import java.util.*;
-import java.util.logging.*;
-import java.io.IOException;
-
 import dots.agent.*;
 import dots.agent.q.*;
 import dots.engine.*;
+import java.io.IOException;
+import java.util.*;
+import java.util.logging.*;
+
 
 public class ArgHandler
 {
@@ -136,7 +136,9 @@ public class ArgHandler
                 float discountFactor = QLearningAgent.DEFAULT_DISCOUNT_FACTOR;
 
                 if (params.length == 5) {
+//                	logger.info(String.format("got params3,4 = %s, %s", params[3], params[4]));
                     try {
+//                        logger.info(String.format("got params3,4 = %s, %s", params[3], params[4]));
                         discountFactor = Float.parseFloat(params[3]);
                         learningRate = Float.parseFloat(params[4]);
                     } catch (NumberFormatException e) {

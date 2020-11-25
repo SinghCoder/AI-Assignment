@@ -23,9 +23,9 @@ package dots.engine;
 
 import dots.agent.*;
 import dots.engine.*;
-
 import java.util.*;
 import java.util.logging.Logger;
+
 
 /**
  * This class is the engine for the Dots and boxes game. An instance of
@@ -265,6 +265,7 @@ public class DotsNBoxes extends Thread {
     /**
      * Run all games.
      */
+    @Override
     public void run() {
         int i = 0;
         try {
@@ -302,7 +303,7 @@ public class DotsNBoxes extends Thread {
             Agent agent = agents.get(i);
             int wins = scoring.getScore(agent);
             
-            results.add(String.format("#%d %s: %d wins, %d losses. Share: %f", (i + 1),
+            results.add(String.format("#%d %s: %d wins, %d losses. | Share: %f", (i + 1),
                         agent.getClass().getSimpleName(), wins, numRounds - wins, (double)wins/numRounds));
 
         }

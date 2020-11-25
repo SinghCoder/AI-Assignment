@@ -24,8 +24,6 @@ package dots.agent;
 import dots.agent.q.StateMatrix;
 import java.util.*;
 import java.util.logging.*;
-import java.io.FileWriter;
-import java.io.IOException;
 
 
 /**
@@ -186,15 +184,15 @@ public class QLearningAgent implements Agent
 
             logger.finest(String.format("Saving Q-value (%d, %d, %f) %f", lastState,
                         lastAction, newQValue, max));
-            FileWriter myWriter;
-			try {
-				myWriter = new FileWriter("filename.txt");
-				myWriter.write(String.format("(%d, %d, %f) %f", lastState, lastAction, newQValue, max));
-	            myWriter.close();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+            // FileWriter myWriter;
+			// try {
+			// 	myWriter = new FileWriter("filename.txt");
+			// 	myWriter.write(String.format("(%d, %d, %f) %f", lastState, lastAction, newQValue, max));
+	        //     myWriter.close();
+			// } catch (IOException e) {
+			// 	// TODO Auto-generated catch block
+			// 	e.printStackTrace();
+			// }
             
 
             stateMatrix.setQ(lastState, lastAction, newQValue);
@@ -211,7 +209,7 @@ public class QLearningAgent implements Agent
     {
         // long numActions = 
         // logger.info()
-        logger.info(String.format("QLearning score: %d", numPoints));
+        logger.info(String.format(" | QLearning score: %d ", numPoints));
     }
 
     /**

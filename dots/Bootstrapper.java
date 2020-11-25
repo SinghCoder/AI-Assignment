@@ -24,12 +24,15 @@ package dots;
 import dots.engine.*;
 import dots.util.*;
 import dots.util.logging.*;
-
-import java.util.List;
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.LinkedList;
-import java.util.logging.Logger;
+import java.util.List;
+import java.util.Scanner;
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Level;
+import java.util.logging.Logger;
+
 
 /**
  * This class acts as a boot strapper for the game engine. The main method of
@@ -93,6 +96,7 @@ public class Bootstrapper extends Thread
      * This is the cleanup-thread, responsible for shutting down all started
      * games.
      */
+    @Override
     public void run()
     {
         while (games.size() > 0)
@@ -179,9 +183,8 @@ public class Bootstrapper extends Thread
     /**
      * @param args Not used
      */
-    public static void main(String[] args)
-    {
-        ArgHandler.handleArgs(args);
-        getInstance().start();
+    public static void main(String[] args){
+		ArgHandler.handleArgs(args);
+		getInstance().start();
     }
 }
