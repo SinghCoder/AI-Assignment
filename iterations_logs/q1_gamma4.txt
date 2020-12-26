@@ -1,0 +1,80 @@
+#1 QLearningAgent: 7881 wins, 2119 losses. | Share: 0.788100 | #2 RandomAgent: 2119 wins, 7881 losses. | Share: 0.211900 |  | QLearning score: 57620 
+#1 QLearningAgent: 15941 wins, 4059 losses. | Share: 0.797050 | #2 RandomAgent: 4059 wins, 15941 losses. | Share: 0.202950 |  | QLearning score: 118820 
+#1 QLearningAgent: 24110 wins, 5890 losses. | Share: 0.803667 | #2 RandomAgent: 5890 wins, 24110 losses. | Share: 0.196333 |  | QLearning score: 182200 
+#1 QLearningAgent: 32259 wins, 7741 losses. | Share: 0.806475 | #2 RandomAgent: 7741 wins, 32259 losses. | Share: 0.193525 |  | QLearning score: 245180 
+#1 QLearningAgent: 40344 wins, 9656 losses. | Share: 0.806880 | #2 RandomAgent: 9656 wins, 40344 losses. | Share: 0.193120 |  | QLearning score: 306880 
+#1 QLearningAgent: 48606 wins, 11394 losses. | Share: 0.810100 | #2 RandomAgent: 11394 wins, 48606 losses. | Share: 0.189900 |  | QLearning score: 372120 
+#1 QLearningAgent: 56822 wins, 13178 losses. | Share: 0.811743 | #2 RandomAgent: 13178 wins, 56822 losses. | Share: 0.188257 |  | QLearning score: 436440 
+#1 QLearningAgent: 64710 wins, 15290 losses. | Share: 0.808875 | #2 RandomAgent: 15290 wins, 64710 losses. | Share: 0.191125 |  | QLearning score: 494200 
+#1 QLearningAgent: 73269 wins, 16731 losses. | Share: 0.814100 | #2 RandomAgent: 16731 wins, 73269 losses. | Share: 0.185900 |  | QLearning score: 565380 
+num_games: 10000, alpha: 0.2, gamma: 0.4, epsilon: 0.2
+num_games: 10000, alpha: 0.4, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.4:0.4:0.2'
+num_games: 10000, alpha: 0.6000000000000001, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.6000000000000001:0.4:0.2'
+num_games: 10000, alpha: 0.8, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.8:0.4:0.2'
+num_games: 20000, alpha: 0.2, gamma: 0.4, epsilon: 0.2
+num_games: 20000, alpha: 0.4, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.4:0.4:0.2'
+num_games: 20000, alpha: 0.6000000000000001, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.6000000000000001:0.4:0.2'
+num_games: 20000, alpha: 0.8, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.8:0.4:0.2'
+num_games: 30000, alpha: 0.2, gamma: 0.4, epsilon: 0.2
+num_games: 30000, alpha: 0.4, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.4:0.4:0.2'
+num_games: 30000, alpha: 0.6000000000000001, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.6000000000000001:0.4:0.2'
+num_games: 30000, alpha: 0.8, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.8:0.4:0.2'
+num_games: 40000, alpha: 0.2, gamma: 0.4, epsilon: 0.2
+num_games: 40000, alpha: 0.4, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.4:0.4:0.2'
+num_games: 40000, alpha: 0.6000000000000001, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.6000000000000001:0.4:0.2'
+num_games: 40000, alpha: 0.8, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.8:0.4:0.2'
+num_games: 50000, alpha: 0.2, gamma: 0.4, epsilon: 0.2
+num_games: 50000, alpha: 0.4, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.4:0.4:0.2'
+num_games: 50000, alpha: 0.6000000000000001, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.6000000000000001:0.4:0.2'
+num_games: 50000, alpha: 0.8, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.8:0.4:0.2'
+num_games: 60000, alpha: 0.2, gamma: 0.4, epsilon: 0.2
+num_games: 60000, alpha: 0.4, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.4:0.4:0.2'
+num_games: 60000, alpha: 0.6000000000000001, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.6000000000000001:0.4:0.2'
+num_games: 60000, alpha: 0.8, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.8:0.4:0.2'
+num_games: 70000, alpha: 0.2, gamma: 0.4, epsilon: 0.2
+num_games: 70000, alpha: 0.4, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.4:0.4:0.2'
+num_games: 70000, alpha: 0.6000000000000001, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.6000000000000001:0.4:0.2'
+num_games: 70000, alpha: 0.8, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.8:0.4:0.2'
+num_games: 80000, alpha: 0.2, gamma: 0.4, epsilon: 0.2
+num_games: 80000, alpha: 0.4, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.4:0.4:0.2'
+num_games: 80000, alpha: 0.6000000000000001, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.6000000000000001:0.4:0.2'
+num_games: 80000, alpha: 0.8, gamma: 0.4, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.8:0.4:0.2'
+num_games: 90000, alpha: 0.2, gamma: 0.4, epsilon: 0.2
+Traceback (most recent call last):
+  File "automate.py", line 31, in <module>
+    subprocess.run(args)
+  File "/usr/lib/python3.8/subprocess.py", line 491, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/usr/lib/python3.8/subprocess.py", line 1016, in communicate
+    self.wait()
+  File "/usr/lib/python3.8/subprocess.py", line 1079, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.8/subprocess.py", line 1804, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.8/subprocess.py", line 1762, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt

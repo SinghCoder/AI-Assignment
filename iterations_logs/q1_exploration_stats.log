@@ -1,0 +1,20 @@
+num_games: 10000, alpha: 0.2, gamma: 0.8, epsilon: 0.0
+#1 QLearningAgent: 8007 wins, 1993 losses. | Share: 0.800700 | #2 RandomAgent: 1993 wins, 8007 losses. | Share: 0.199300 |  | QLearning score: 60140 
+num_games: 10000, alpha: 0.2, gamma: 0.8, epsilon: 0.1
+#1 QLearningAgent: 7681 wins, 2319 losses. | Share: 0.768100 | #2 RandomAgent: 2319 wins, 7681 losses. | Share: 0.231900 |  | QLearning score: 53620 
+num_games: 10000, alpha: 0.2, gamma: 0.8, epsilon: 0.2
+#1 QLearningAgent: 7352 wins, 2648 losses. | Share: 0.735200 | #2 RandomAgent: 2648 wins, 7352 losses. | Share: 0.264800 |  | QLearning score: 47040 
+num_games: 10000, alpha: 0.2, gamma: 0.8, epsilon: 0.3
+#1 QLearningAgent: 6903 wins, 3097 losses. | Share: 0.690300 | #2 RandomAgent: 3097 wins, 6903 losses. | Share: 0.309700 |  | QLearning score: 38060 
+num_games: 10000, alpha: 0.2, gamma: 0.8, epsilon: 0.4
+#1 QLearningAgent: 6570 wins, 3430 losses. | Share: 0.657000 | #2 RandomAgent: 3430 wins, 6570 losses. | Share: 0.343000 |  | QLearning score: 31400 
+num_games: 10000, alpha: 0.2, gamma: 0.8, epsilon: 0.5
+#1 QLearningAgent: 6130 wins, 3870 losses. | Share: 0.613000 | #2 RandomAgent: 3870 wins, 6130 losses. | Share: 0.387000 |  | QLearning score: 22600 
+num_games: 10000, alpha: 0.2, gamma: 0.8, epsilon: 0.6
+#1 QLearningAgent: 5733 wins, 4267 losses. | Share: 0.573300 | #2 RandomAgent: 4267 wins, 5733 losses. | Share: 0.426700 |  | QLearning score: 14660 
+num_games: 10000, alpha: 0.2, gamma: 0.8, epsilon: 0.7
+#1 QLearningAgent: 5492 wins, 4508 losses. | Share: 0.549200 | #2 RandomAgent: 4508 wins, 5492 losses. | Share: 0.450800 |  | QLearning score: 9840 
+num_games: 10000, alpha: 0.2, gamma: 0.8, epsilon: 0.8
+#1 QLearningAgent: 5208 wins, 4792 losses. | Share: 0.520800 | #2 RandomAgent: 4792 wins, 5208 losses. | Share: 0.479200 |  | QLearning score: 4160 
+num_games: 10000, alpha: 0.2, gamma: 0.8, epsilon: 0.9
+#1 QLearningAgent: 4972 wins, 5028 losses. | Share: 0.497200 | #2 RandomAgent: 5028 wins, 4972 losses. | Share: 0.502800 |  | QLearning score: -560

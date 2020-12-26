@@ -1,0 +1,160 @@
+num_games: 10000, alpha: 0.2, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 7606 wins, 2394 losses. | Share: 0.760600 | #2 RandomAgent: 2394 wins, 7606 losses. | Share: 0.239400 |  | QLearning score: 52120 
+num_games: 10000, alpha: 0.4, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 7590 wins, 2410 losses. | Share: 0.759000 | #2 RandomAgent: 2410 wins, 7590 losses. | Share: 0.241000 |  | QLearning score: 51800 
+num_games: 10000, alpha: 0.6, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 7663 wins, 2337 losses. | Share: 0.766300 | #2 RandomAgent: 2337 wins, 7663 losses. | Share: 0.233700 |  | QLearning score: 53260 
+num_games: 10000, alpha: 0.8, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 7686 wins, 2314 losses. | Share: 0.768600 | #2 RandomAgent: 2314 wins, 7686 losses. | Share: 0.231400 |  | QLearning score: 53720 
+num_games: 20000, alpha: 0.2, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 15456 wins, 4544 losses. | Share: 0.772800 | #2 RandomAgent: 4544 wins, 15456 losses. | Share: 0.227200 |  | QLearning score: 109120 
+num_games: 20000, alpha: 0.4, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 15435 wins, 4565 losses. | Share: 0.771750 | #2 RandomAgent: 4565 wins, 15435 losses. | Share: 0.228250 |  | QLearning score: 108700 
+num_games: 20000, alpha: 0.6, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 15470 wins, 4530 losses. | Share: 0.773500 | #2 RandomAgent: 4530 wins, 15470 losses. | Share: 0.226500 |  | QLearning score: 109400 
+num_games: 20000, alpha: 0.8, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 15525 wins, 4475 losses. | Share: 0.776250 | #2 RandomAgent: 4475 wins, 15525 losses. | Share: 0.223750 |  | QLearning score: 110500 
+num_games: 30000, alpha: 0.2, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 23313 wins, 6687 losses. | Share: 0.777100 | #2 RandomAgent: 6687 wins, 23313 losses. | Share: 0.222900 |  | QLearning score: 166260 
+num_games: 30000, alpha: 0.4, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 23363 wins, 6637 losses. | Share: 0.778767 | #2 RandomAgent: 6637 wins, 23363 losses. | Share: 0.221233 |  | QLearning score: 167260 
+num_games: 30000, alpha: 0.6, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 23489 wins, 6511 losses. | Share: 0.782967 | #2 RandomAgent: 6511 wins, 23489 losses. | Share: 0.217033 |  | QLearning score: 169780 
+num_games: 30000, alpha: 0.8, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 23430 wins, 6570 losses. | Share: 0.781000 | #2 RandomAgent: 6570 wins, 23430 losses. | Share: 0.219000 |  | QLearning score: 168600 
+num_games: 40000, alpha: 0.2, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 31425 wins, 8575 losses. | Share: 0.785625 | #2 RandomAgent: 8575 wins, 31425 losses. | Share: 0.214375 |  | QLearning score: 228500 
+num_games: 40000, alpha: 0.4, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 31552 wins, 8448 losses. | Share: 0.788800 | #2 RandomAgent: 8448 wins, 31552 losses. | Share: 0.211200 |  | QLearning score: 231040 
+num_games: 40000, alpha: 0.6, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 31541 wins, 8459 losses. | Share: 0.788525 | #2 RandomAgent: 8459 wins, 31541 losses. | Share: 0.211475 |  | QLearning score: 230820 
+num_games: 40000, alpha: 0.8, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 31436 wins, 8564 losses. | Share: 0.785900 | #2 RandomAgent: 8564 wins, 31436 losses. | Share: 0.214100 |  | QLearning score: 228720 
+num_games: 50000, alpha: 0.2, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 39485 wins, 10515 losses. | Share: 0.789700 | #2 RandomAgent: 10515 wins, 39485 losses. | Share: 0.210300 |  | QLearning score: 289700 
+num_games: 50000, alpha: 0.4, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 39356 wins, 10644 losses. | Share: 0.787120 | #2 RandomAgent: 10644 wins, 39356 losses. | Share: 0.212880 |  | QLearning score: 287120 
+num_games: 50000, alpha: 0.6, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 39321 wins, 10679 losses. | Share: 0.786420 | #2 RandomAgent: 10679 wins, 39321 losses. | Share: 0.213580 |  | QLearning score: 286420 
+num_games: 50000, alpha: 0.8, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 39511 wins, 10489 losses. | Share: 0.790220 | #2 RandomAgent: 10489 wins, 39511 losses. | Share: 0.209780 |  | QLearning score: 290220 
+num_games: 60000, alpha: 0.2, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 47909 wins, 12091 losses. | Share: 0.798483 | #2 RandomAgent: 12091 wins, 47909 losses. | Share: 0.201517 |  | QLearning score: 358180 
+num_games: 60000, alpha: 0.4, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 47445 wins, 12555 losses. | Share: 0.790750 | #2 RandomAgent: 12555 wins, 47445 losses. | Share: 0.209250 |  | QLearning score: 348900 
+num_games: 60000, alpha: 0.6, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 47575 wins, 12425 losses. | Share: 0.792917 | #2 RandomAgent: 12425 wins, 47575 losses. | Share: 0.207083 |  | QLearning score: 351500 
+num_games: 60000, alpha: 0.8, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 47467 wins, 12533 losses. | Share: 0.791117 | #2 RandomAgent: 12533 wins, 47467 losses. | Share: 0.208883 |  | QLearning score: 349340 
+num_games: 70000, alpha: 0.2, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 55945 wins, 14055 losses. | Share: 0.799214 | #2 RandomAgent: 14055 wins, 55945 losses. | Share: 0.200786 |  | QLearning score: 418900 
+num_games: 70000, alpha: 0.4, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 55785 wins, 14215 losses. | Share: 0.796929 | #2 RandomAgent: 14215 wins, 55785 losses. | Share: 0.203071 |  | QLearning score: 415700 
+num_games: 70000, alpha: 0.6, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 55453 wins, 14547 losses. | Share: 0.792186 | #2 RandomAgent: 14547 wins, 55453 losses. | Share: 0.207814 |  | QLearning score: 409060 
+num_games: 70000, alpha: 0.8, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 55530 wins, 14470 losses. | Share: 0.793286 | #2 RandomAgent: 14470 wins, 55530 losses. | Share: 0.206714 |  | QLearning score: 410600 
+num_games: 80000, alpha: 0.2, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 64029 wins, 15971 losses. | Share: 0.800363 | #2 RandomAgent: 15971 wins, 64029 losses. | Share: 0.199638 |  | QLearning score: 480580 
+num_games: 80000, alpha: 0.4, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 64152 wins, 15848 losses. | Share: 0.801900 | #2 RandomAgent: 15848 wins, 64152 losses. | Share: 0.198100 |  | QLearning score: 483040 
+num_games: 80000, alpha: 0.6, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 63554 wins, 16446 losses. | Share: 0.794425 | #2 RandomAgent: 16446 wins, 63554 losses. | Share: 0.205575 |  | QLearning score: 471080 
+num_games: 80000, alpha: 0.8, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 63824 wins, 16176 losses. | Share: 0.797800 | #2 RandomAgent: 16176 wins, 63824 losses. | Share: 0.202200 |  | QLearning score: 476480 
+num_games: 90000, alpha: 0.2, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 71579 wins, 18421 losses. | Share: 0.795322 | #2 RandomAgent: 18421 wins, 71579 losses. | Share: 0.204678 |  | QLearning score: 531580 
+num_games: 90000, alpha: 0.4, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 72027 wins, 17973 losses. | Share: 0.800300 | #2 RandomAgent: 17973 wins, 72027 losses. | Share: 0.199700 |  | QLearning score: 540540 
+num_games: 90000, alpha: 0.6, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 72016 wins, 17984 losses. | Share: 0.800178 | #2 RandomAgent: 17984 wins, 72016 losses. | Share: 0.199822 |  | QLearning score: 540320 
+num_games: 90000, alpha: 0.8, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 71854 wins, 18146 losses. | Share: 0.798378 | #2 RandomAgent: 18146 wins, 71854 losses. | Share: 0.201622 |  | QLearning score: 537080 
+num_games: 100000, alpha: 0.2, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 80527 wins, 19473 losses. | Share: 0.805270 | #2 RandomAgent: 19473 wins, 80527 losses. | Share: 0.194730 |  | QLearning score: 610540 
+num_games: 100000, alpha: 0.4, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 80401 wins, 19599 losses. | Share: 0.804010 | #2 RandomAgent: 19599 wins, 80401 losses. | Share: 0.195990 |  | QLearning score: 608020 
+num_games: 100000, alpha: 0.6, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 79997 wins, 20003 losses. | Share: 0.799970 | #2 RandomAgent: 20003 wins, 79997 losses. | Share: 0.200030 |  | QLearning score: 599940 
+num_games: 100000, alpha: 0.8, gamma: 0.2, epsilon: 0.2
+#1 QLearningAgent: 79819 wins, 20181 losses. | Share: 0.798190 | #2 RandomAgent: 20181 wins, 79819 losses. | Share: 0.201810 |  | QLearning score: 596380
+num_games: 10000, alpha: 0.2, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 7827 wins, 2173 losses. | Share: 0.782700 | #2 RandomAgent: 2173 wins, 7827 losses. | Share: 0.217300 |  | QLearning score: 56540 
+num_games: 10000, alpha: 0.4, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 7885 wins, 2115 losses. | Share: 0.788500 | #2 RandomAgent: 2115 wins, 7885 losses. | Share: 0.211500 |  | QLearning score: 57700 
+num_games: 10000, alpha: 0.6, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 7970 wins, 2030 losses. | Share: 0.797000 | #2 RandomAgent: 2030 wins, 7970 losses. | Share: 0.203000 |  | QLearning score: 59400 
+num_games: 10000, alpha: 0.8, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 7973 wins, 2027 losses. | Share: 0.797300 | #2 RandomAgent: 2027 wins, 7973 losses. | Share: 0.202700 |  | QLearning score: 59460 
+num_games: 20000, alpha: 0.2, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 15859 wins, 4141 losses. | Share: 0.792950 | #2 RandomAgent: 4141 wins, 15859 losses. | Share: 0.207050 |  | QLearning score: 117180 
+num_games: 20000, alpha: 0.4, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 16070 wins, 3930 losses. | Share: 0.803500 | #2 RandomAgent: 3930 wins, 16070 losses. | Share: 0.196500 |  | QLearning score: 121400 
+num_games: 20000, alpha: 0.6, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 15974 wins, 4026 losses. | Share: 0.798700 | #2 RandomAgent: 4026 wins, 15974 losses. | Share: 0.201300 |  | QLearning score: 119480 
+num_games: 20000, alpha: 0.8, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 15969 wins, 4031 losses. | Share: 0.798450 | #2 RandomAgent: 4031 wins, 15969 losses. | Share: 0.201550 |  | QLearning score: 119380 
+num_games: 30000, alpha: 0.2, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 24080 wins, 5920 losses. | Share: 0.802667 | #2 RandomAgent: 5920 wins, 24080 losses. | Share: 0.197333 |  | QLearning score: 181600 
+num_games: 30000, alpha: 0.4, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 24076 wins, 5924 losses. | Share: 0.802533 | #2 RandomAgent: 5924 wins, 24076 losses. | Share: 0.197467 |  | QLearning score: 181520 
+num_games: 30000, alpha: 0.6, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 24110 wins, 5890 losses. | Share: 0.803667 | #2 RandomAgent: 5890 wins, 24110 losses. | Share: 0.196333 |  | QLearning score: 182200 
+num_games: 30000, alpha: 0.8, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 24126 wins, 5874 losses. | Share: 0.804200 | #2 RandomAgent: 5874 wins, 24126 losses. | Share: 0.195800 |  | QLearning score: 182520 
+num_games: 40000, alpha: 0.2, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 32211 wins, 7789 losses. | Share: 0.805275 | #2 RandomAgent: 7789 wins, 32211 losses. | Share: 0.194725 |  | QLearning score: 244220 
+num_games: 40000, alpha: 0.4, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 32235 wins, 7765 losses. | Share: 0.805875 | #2 RandomAgent: 7765 wins, 32235 losses. | Share: 0.194125 |  | QLearning score: 244700 
+num_games: 40000, alpha: 0.6, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 32281 wins, 7719 losses. | Share: 0.807025 | #2 RandomAgent: 7719 wins, 32281 losses. | Share: 0.192975 |  | QLearning score: 245620 
+num_games: 40000, alpha: 0.8, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 32280 wins, 7720 losses. | Share: 0.807000 | #2 RandomAgent: 7720 wins, 32280 losses. | Share: 0.193000 |  | QLearning score: 245600 
+num_games: 50000, alpha: 0.2, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 40368 wins, 9632 losses. | Share: 0.807360 | #2 RandomAgent: 9632 wins, 40368 losses. | Share: 0.192640 |  | QLearning score: 307360 
+num_games: 50000, alpha: 0.4, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 40379 wins, 9621 losses. | Share: 0.807580 | #2 RandomAgent: 9621 wins, 40379 losses. | Share: 0.192420 |  | QLearning score: 307580 
+num_games: 50000, alpha: 0.6, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 40382 wins, 9618 losses. | Share: 0.807640 | #2 RandomAgent: 9618 wins, 40382 losses. | Share: 0.192360 |  | QLearning score: 307640 
+num_games: 50000, alpha: 0.8, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 40240 wins, 9760 losses. | Share: 0.804800 | #2 RandomAgent: 9760 wins, 40240 losses. | Share: 0.195200 |  | QLearning score: 304800 
+num_games: 60000, alpha: 0.2, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 48646 wins, 11354 losses. | Share: 0.810767 | #2 RandomAgent: 11354 wins, 48646 losses. | Share: 0.189233 |  | QLearning score: 372920 
+num_games: 60000, alpha: 0.4, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 48545 wins, 11455 losses. | Share: 0.809083 | #2 RandomAgent: 11455 wins, 48545 losses. | Share: 0.190917 |  | QLearning score: 370900 
+num_games: 60000, alpha: 0.6, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 48547 wins, 11453 losses. | Share: 0.809117 | #2 RandomAgent: 11453 wins, 48547 losses. | Share: 0.190883 |  | QLearning score: 370940 
+num_games: 60000, alpha: 0.8, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 48453 wins, 11547 losses. | Share: 0.807550 | #2 RandomAgent: 11547 wins, 48453 losses. | Share: 0.192450 |  | QLearning score: 369060 
+num_games: 70000, alpha: 0.2, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 56749 wins, 13251 losses. | Share: 0.810700 | #2 RandomAgent: 13251 wins, 56749 losses. | Share: 0.189300 |  | QLearning score: 434980 
+num_games: 70000, alpha: 0.4, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 56668 wins, 13332 losses. | Share: 0.809543 | #2 RandomAgent: 13332 wins, 56668 losses. | Share: 0.190457 |  | QLearning score: 433360 
+num_games: 70000, alpha: 0.6, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 56794 wins, 13206 losses. | Share: 0.811343 | #2 RandomAgent: 13206 wins, 56794 losses. | Share: 0.188657 |  | QLearning score: 435880 
+num_games: 70000, alpha: 0.8, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 56738 wins, 13262 losses. | Share: 0.810543 | #2 RandomAgent: 13262 wins, 56738 losses. | Share: 0.189457 |  | QLearning score: 434760 
+num_games: 80000, alpha: 0.2, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 64964 wins, 15036 losses. | Share: 0.812050 | #2 RandomAgent: 15036 wins, 64964 losses. | Share: 0.187950 |  | QLearning score: 499280 
+num_games: 80000, alpha: 0.4, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 64902 wins, 15098 losses. | Share: 0.811275 | #2 RandomAgent: 15098 wins, 64902 losses. | Share: 0.188725 |  | QLearning score: 498040 
+num_games: 80000, alpha: 0.6, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 65135 wins, 14865 losses. | Share: 0.814188 | #2 RandomAgent: 14865 wins, 65135 losses. | Share: 0.185813 |  | QLearning score: 502700 
+num_games: 80000, alpha: 0.8, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 64548 wins, 15452 losses. | Share: 0.806850 | #2 RandomAgent: 15452 wins, 64548 losses. | Share: 0.193150 |  | QLearning score: 490960 
+num_games: 90000, alpha: 0.2, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 73254 wins, 16746 losses. | Share: 0.813933 | #2 RandomAgent: 16746 wins, 73254 losses. | Share: 0.186067 |  | QLearning score: 565080 
+num_games: 90000, alpha: 0.4, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 73207 wins, 16793 losses. | Share: 0.813411 | #2 RandomAgent: 16793 wins, 73207 losses. | Share: 0.186589 |  | QLearning score: 564140 
+num_games: 90000, alpha: 0.6, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 73157 wins, 16843 losses. | Share: 0.812856 | #2 RandomAgent: 16843 wins, 73157 losses. | Share: 0.187144 |  | QLearning score: 563140 
+num_games: 90000, alpha: 0.8, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 72854 wins, 17146 losses. | Share: 0.809489 | #2 RandomAgent: 17146 wins, 72854 losses. | Share: 0.190511 |  | QLearning score: 557080 
+num_games: 100000, alpha: 0.2, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 81470 wins, 18530 losses. | Share: 0.814700 | #2 RandomAgent: 18530 wins, 81470 losses. | Share: 0.185300 |  | QLearning score: 629400 
+num_games: 100000, alpha: 0.4, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 81404 wins, 18596 losses. | Share: 0.814040 | #2 RandomAgent: 18596 wins, 81404 losses. | Share: 0.185960 |  | QLearning score: 628080 
+num_games: 100000, alpha: 0.6, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 81502 wins, 18498 losses. | Share: 0.815020 | #2 RandomAgent: 18498 wins, 81502 losses. | Share: 0.184980 |  | QLearning score: 630040 
+num_games: 100000, alpha: 0.8, gamma: 0.4, epsilon: 0.2
+#1 QLearningAgent: 81134 wins, 18866 losses. | Share: 0.811340 | #2 RandomAgent: 18866 wins, 81134 losses. | Share: 0.188660 |  | QLearning score: 622680

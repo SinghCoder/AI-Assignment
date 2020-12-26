@@ -1,0 +1,80 @@
+#1 QLearningAgent: 7605 wins, 2395 losses. | Share: 0.760500 | #2 RandomAgent: 2395 wins, 7605 losses. | Share: 0.239500 |  | QLearning score: 52100 
+#1 QLearningAgent: 15425 wins, 4575 losses. | Share: 0.771250 | #2 RandomAgent: 4575 wins, 15425 losses. | Share: 0.228750 |  | QLearning score: 108500 
+#1 QLearningAgent: 23431 wins, 6569 losses. | Share: 0.781033 | #2 RandomAgent: 6569 wins, 23431 losses. | Share: 0.218967 |  | QLearning score: 168620 
+#1 QLearningAgent: 31375 wins, 8625 losses. | Share: 0.784375 | #2 RandomAgent: 8625 wins, 31375 losses. | Share: 0.215625 |  | QLearning score: 227500 
+#1 QLearningAgent: 39212 wins, 10788 losses. | Share: 0.784240 | #2 RandomAgent: 10788 wins, 39212 losses. | Share: 0.215760 |  | QLearning score: 284240 
+#1 QLearningAgent: 47781 wins, 12219 losses. | Share: 0.796350 | #2 RandomAgent: 12219 wins, 47781 losses. | Share: 0.203650 |  | QLearning score: 355620 
+#1 QLearningAgent: 55730 wins, 14270 losses. | Share: 0.796143 | #2 RandomAgent: 14270 wins, 55730 losses. | Share: 0.203857 |  | QLearning score: 414600 
+#1 QLearningAgent: 64053 wins, 15947 losses. | Share: 0.800663 | #2 RandomAgent: 15947 wins, 64053 losses. | Share: 0.199338 |  | QLearning score: 481060 
+#1 QLearningAgent: 72311 wins, 17689 losses. | Share: 0.803456 | #2 RandomAgent: 17689 wins, 72311 losses. | Share: 0.196544 |  | QLearning score: 546220 
+#1 QLearningAgent: 80434 wins, 19566 losses. | Share: 0.804340 | #2 RandomAgent: 19566 wins, 80434 losses. | Share: 0.195660 |  | QLearning score: 608680 
+num_games: 10000, alpha: 0.2, gamma: 0.2, epsilon: 0.2
+num_games: 10000, alpha: 0.4, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.4:0.2:0.2'
+num_games: 10000, alpha: 0.6000000000000001, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.6000000000000001:0.2:0.2'
+num_games: 10000, alpha: 0.8, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.8:0.2:0.2'
+num_games: 20000, alpha: 0.2, gamma: 0.2, epsilon: 0.2
+num_games: 20000, alpha: 0.4, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.4:0.2:0.2'
+num_games: 20000, alpha: 0.6000000000000001, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.6000000000000001:0.2:0.2'
+num_games: 20000, alpha: 0.8, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.8:0.2:0.2'
+num_games: 30000, alpha: 0.2, gamma: 0.2, epsilon: 0.2
+num_games: 30000, alpha: 0.4, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.4:0.2:0.2'
+num_games: 30000, alpha: 0.6000000000000001, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.6000000000000001:0.2:0.2'
+num_games: 30000, alpha: 0.8, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.8:0.2:0.2'
+num_games: 40000, alpha: 0.2, gamma: 0.2, epsilon: 0.2
+num_games: 40000, alpha: 0.4, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.4:0.2:0.2'
+num_games: 40000, alpha: 0.6000000000000001, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.6000000000000001:0.2:0.2'
+num_games: 40000, alpha: 0.8, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.8:0.2:0.2'
+num_games: 50000, alpha: 0.2, gamma: 0.2, epsilon: 0.2
+num_games: 50000, alpha: 0.4, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.4:0.2:0.2'
+num_games: 50000, alpha: 0.6000000000000001, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.6000000000000001:0.2:0.2'
+num_games: 50000, alpha: 0.8, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.8:0.2:0.2'
+num_games: 60000, alpha: 0.2, gamma: 0.2, epsilon: 0.2
+num_games: 60000, alpha: 0.4, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.4:0.2:0.2'
+num_games: 60000, alpha: 0.6000000000000001, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.6000000000000001:0.2:0.2'
+num_games: 60000, alpha: 0.8, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.8:0.2:0.2'
+num_games: 70000, alpha: 0.2, gamma: 0.2, epsilon: 0.2
+num_games: 70000, alpha: 0.4, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.4:0.2:0.2'
+num_games: 70000, alpha: 0.6000000000000001, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.6000000000000001:0.2:0.2'
+num_games: 70000, alpha: 0.8, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.8:0.2:0.2'
+num_games: 80000, alpha: 0.2, gamma: 0.2, epsilon: 0.2
+num_games: 80000, alpha: 0.4, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.4:0.2:0.2'
+num_games: 80000, alpha: 0.6000000000000001, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.6000000000000001:0.2:0.2'
+num_games: 80000, alpha: 0.8, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.8:0.2:0.2'
+num_games: 90000, alpha: 0.2, gamma: 0.2, epsilon: 0.2
+num_games: 90000, alpha: 0.4, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.4:0.2:0.2'
+num_games: 90000, alpha: 0.6000000000000001, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.6000000000000001:0.2:0.2'
+num_games: 90000, alpha: 0.8, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.8:0.2:0.2'
+num_games: 100000, alpha: 0.2, gamma: 0.2, epsilon: 0.2
+num_games: 100000, alpha: 0.4, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.4:0.2:0.2'
+num_games: 100000, alpha: 0.6000000000000001, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.6000000000000001:0.2:0.2'
+num_games: 100000, alpha: 0.8, gamma: 0.2, epsilon: 0.2
+Error occured: [Errno 2] No such file or directory: 'QLearningAgent:true:part1_left1.dat:0.8:0.2:0.2'

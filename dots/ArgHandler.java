@@ -1,24 +1,3 @@
-/*-****************************************************************************
- * ArgHandler.java
- ******************************************************************************
- * Copyright (C) 2010 Oskar Arvidsson, Linus Wallgren
- *
- * This file is part of dotsnboxes.
- *
- * dotsnboxes is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free
- * Software Foundation, either version 3 of the License, or (at your option)
- * any later version.
- *
- * dotsnboxes is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
- * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
- * more details.
- *
- * You should have received a copy of the GNU General Public License along with
- * dotsnboxes. If not, see <http://www.gnu.org/licenses/>.
- *****************************************************************************/
-
 package dots;
 
 import dots.agent.*;
@@ -31,16 +10,10 @@ import java.util.logging.*;
 
 public class ArgHandler
 {
-    /**
-     * The logger for this class
-     */
+    
     private static Logger logger = Logger.getLogger(ArgHandler.class.getName());
 
-    /**
-     * This method handles the arguments passed to the program
-     * 
-     * @param args The arguments that are going to be parsed
-     */
+    
     public static void handleArgs(String[] args)
     {
         int numGames = 1;
@@ -109,7 +82,7 @@ public class ArgHandler
             if (className.equals("dots.agent.QLearningAgent")) {
                 StateMatrix matrix = null;
 
-                if (params.length != 3 && params.length != 5) {
+                if (params.length != 3 && params.length != 6) {
                     logger.severe("Expected --agent " +
                             "QlearningAgent:<training>:<filename>" +
                             "[:<discount factor>:<learning rate>]");
@@ -134,13 +107,15 @@ public class ArgHandler
 
                 float learningRate = QLearningAgent.DEFAULT_LEARNING_RATE;
                 float discountFactor = QLearningAgent.DEFAULT_DISCOUNT_FACTOR;
+                float explorationQuotient = QLearningAgent.DEFAULT_EXPLORATION_QUOTIENT;
 
-                if (params.length == 5) {
+                if (params.length == 6) {
 //                	logger.info(String.format("got params3,4 = %s, %s", params[3], params[4]));
                     try {
 //                        logger.info(String.format("got params3,4 = %s, %s", params[3], params[4]));
                         discountFactor = Float.parseFloat(params[3]);
                         learningRate = Float.parseFloat(params[4]);
+                        explorationQuotient = Float.parseFloat(params[5]);
                     } catch (NumberFormatException e) {
                         logger.severe("Incorrect format on learning rate or " +
                                 "discount factor.");
@@ -154,6 +129,10 @@ public class ArgHandler
                     } else if (discountFactor < 0 || discountFactor >= 1) {
                         logger.severe(String.format("Discount factor must " +
                                 "be in range [0, 1), got %f.", discountFactor));
+                        return;
+                    } else if (explorationQuotient < 0 || explorationQuotient >= 1) {
+                        logger.severe(String.format("Exploration Quotient must " +
+                                "be in range [0, 1), got %f.", explorationQuotient));
                         return;
                     }
                 }
@@ -186,7 +165,7 @@ public class ArgHandler
                 }
 
                 agent = new QLearningAgent(training, matrix, discountFactor,
-                        learningRate);
+                        learningRate, explorationQuotient);
             } else {
                 try {
                     agent = (Agent) classLoader.
