@@ -85,7 +85,7 @@ public class ArgHandler
                 if (params.length != 3 && params.length != 6) {
                     logger.severe("Expected --agent " +
                             "QlearningAgent:<training>:<filename>" +
-                            "[:<discount factor>:<learning rate>]");
+                            "[:<discount factor>:<learning rate>:<exploration quotient>]");
                     return;
                 }
 
@@ -168,8 +168,7 @@ public class ArgHandler
                         learningRate, explorationQuotient);
             } else {
                 try {
-                    agent = (Agent) classLoader.
-                        loadClass(className).newInstance();
+                    agent = (Agent) classLoader.loadClass(className).newInstance();
                 } catch (InstantiationException e) {
                     e.printStackTrace();
                     return;

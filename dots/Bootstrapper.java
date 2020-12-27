@@ -39,8 +39,6 @@ public class Bootstrapper extends Thread
     
     public synchronized void startGame(DotsNBoxes game)
     {
-        logger.finest("Creating game simulator.");
-
         games.add(game);
         game.start();
     }
